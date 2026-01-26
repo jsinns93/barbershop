@@ -11,7 +11,8 @@ export const BRANDING: Branding = {
   socials: {
     instagram: "https://www.instagram.com/premiere.cut/",
     whatsapp: "https://api.whatsapp.com/message/PYTGMMDTKB5YF1?autoload=1&app_absent=0",
-    facebook: "https://www.facebook.com/premierecut/"
+    facebook: "https://www.facebook.com/premierecut/",
+    gmail: "mailto:premierecut.barber@gmail.com"
   }
 };
 
@@ -25,12 +26,10 @@ export const SERVICES: Service[] = [
 ];
 
 export const GALLERY_IMAGES: GalleryImage[] = [
-  { id: '1', url: 'https://picsum.photos/seed/cut1/800/800', alt: 'Classic Side Part Fade', category: 'Haircut' },
-  { id: '2', url: 'https://picsum.photos/seed/cut2/800/800', alt: 'Beard Shaping', category: 'Grooming' },
-  { id: '3', url: 'https://picsum.photos/seed/cut3/800/800', alt: 'Modern Textured Quiff', category: 'Haircut' },
-  { id: '4', url: 'https://picsum.photos/seed/cut4/800/800', alt: 'Traditional Shave Experience', category: 'Service' },
-  { id: '5', url: 'https://picsum.photos/seed/cut5/800/800', alt: 'Sharp Taper Fade', category: 'Haircut' },
-  { id: '6', url: 'https://picsum.photos/seed/cut6/800/800', alt: 'Interior Atmosphere', category: 'Shop' },
-  { id: '7', url: 'https://picsum.photos/seed/cut7/800/800', alt: 'Pompadour Styling', category: 'Haircut' },
-  { id: '8', url: 'https://picsum.photos/seed/cut8/800/800', alt: 'Beard Trim Detail', category: 'Grooming' }
+  { id: '1', url: 'https://images.unsplash.com/photo-1621605815841-2cd6060f19a6?q=80&w=2070&auto=format&fit=crop', alt: 'Classic Side Part Fade', category: 'Haircut' },
+  { id: '2', url: 'https://images.unsplash.com/photo-1599351431247-f577f5d4818a?q=80&w=1974&auto=format&fit=crop', alt: 'Beard Shaping', category: 'Grooming' },
+  { id: '3', url: 'https://images.unsplash.com/photo-1503951914875-452162b0f3f1?q=80&w=2070&auto=format&fit=crop', alt: 'Modern Textured Quiff', category: 'Haircut' },
+  { id: '4', url: 'https://images.unsplash.com/photo-1585747860715-2ba37e788b70?q=80&w=2074&auto=format&fit=crop', alt: 'Traditional Shave Experience', category: 'Service' },
+  { id: '5', url: 'https://images.unsplash.com/photo-1605497788044-5a32c7078486?q=80&w=1974&auto=format&fit=crop', alt: 'Sharp Taper Fade', category: 'Haircut' },
+  { id: '6', url: 'https://images.unsplash.com/photo-1512690196252-715d087968bc?q=80&w=2070&auto=format&fit=crop', alt: 'Interior Atmosphere', category: 'Shop' }
 ];

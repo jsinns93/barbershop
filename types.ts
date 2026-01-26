@@ -24,5 +24,6 @@ export interface Branding {
     instagram: string;
     whatsapp: string;
     facebook: string;
+    gmail: string;
   };
 }
