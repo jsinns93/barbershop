@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Premiere Cut | Premium Barbershop</title>
+    <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@18.2.0",
+    "react-dom": "https://esm.sh/react-dom@18.2.0",
+    "react-dom/client": "https://esm.sh/react-dom@18.2.0/client",
+    "react/jsx-runtime": "https://esm.sh/react@18.2.0/jsx-runtime",
+    "@google/genai": "https://esm.sh/@google/genai",
+    "react/": "https://esm.sh/react@^18.2.0/",
+    "react-dom/": "https://esm.sh/react-dom@^18.2.0/"
+  }
+}
+</script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              brand: {
+                navy: '#1B3644', // Matches the deep blue in the image
+                paper: '#F9F9F7', // Matches the warm off-white background
+                accent: '#3E515D',
+              }
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      body {
+        font-family: 'Inter', sans-serif;
+        scroll-behavior: smooth;
+        background-color: #F9F9F7;
+        color: #1B3644;
+      }
+      .font-serif {
+        font-family: 'Playfair Display', serif;
+      }
+      /* Subtle texture overlay like the image */
+      .bg-texture {
+        background-image: url("https://www.transparenttextures.com/patterns/natural-paper.png");
+      }
+    </style>
+  </head>
+  <body class="bg-brand-paper text-brand-navy bg-texture">
+    <div id="root"></div>
+  </body>
+</html>
