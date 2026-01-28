@@ -10,7 +10,7 @@ export const Gallery: React.FC = () => {
           <div className="lg:col-span-8">
             <span className="text-brand-accent font-bold tracking-[0.4em] text-[10px] mb-4 block uppercase">Our Portfolio</span>
             <h3 className="font-serif text-5xl md:text-8xl font-bold text-brand-navy leading-none">
-              The <span className="italic font-light">Premiere</span> <br />Look Book
+              The <span className="italic font-light">Premiere Cut</span> <br />Look Book
             </h3>
           </div>
           <div className="lg:col-span-4 lg:text-right">
