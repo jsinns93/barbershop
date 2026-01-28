@@ -13,7 +13,7 @@ export const Hero: React.FC = () => {
               Mastering the Art of Grooming
             </h2>
           </div>
-          <h1 className="font-serif text-7xl md:text-[7rem] font-bold mb-10 leading-[0.9] text-brand-navy animate-fade-in-up delay-100">
+          <h1 className="font-serif text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold mb-10 leading-[0.9] text-brand-navy animate-fade-in-up delay-100">
             Exclusive <br />
             <span className="italic font-light tracking-tight text-brand-accent/80">Heritage.</span>
           </h1>
