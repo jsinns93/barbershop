@@ -88,12 +88,8 @@ export const Footer: React.FC = () => {
           </div>
         </div>
 
-        <div className="pt-16 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-8 text-[9px] uppercase tracking-[0.4em] text-white/20">
+        <div className="pt-16 border-t border-white/10 flex justify-center items-center text-[9px] uppercase tracking-[0.4em] text-white/20">
           <p>© {new Date().getFullYear()} Premiere Cut Group — Registered Hallmark</p>
-          <div className="flex gap-12">
-            <a href="#" className="hover:text-white/50 transition-colors">Digital Privacy</a>
-            <a href="#" className="hover:text-white/50 transition-colors">Client Terms</a>
-          </div>
         </div>
       </div>
     </footer>
